@@ -18,3 +18,9 @@ if (isNaN(+x)||isNaN(+n)){
 }else {
   console.log(expon(+x,+n))
 }
+
+// Код работает верно, но есть более легкий вариант решить задачу :)
+
+let exp = (one, two) => console.log(one ** two);
+
+exp(5, 4);
